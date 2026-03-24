@@ -1,5 +1,7 @@
 # Claude Buddy
 
+![Claude Buddy](claude_buddy/pic/claude.png)
+
 **Turn your Claude Code sessions into structured learning reports.**
 
 [中文文档](README_CN.md)

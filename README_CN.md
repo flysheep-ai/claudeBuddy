@@ -1,5 +1,7 @@
 # Claude Buddy
 
+![Claude Buddy](claude_buddy/pic/claude.png)
+
 **把 Claude Code 的工作过程，变成你的编程学习材料。**
 
 [English](README.md)
