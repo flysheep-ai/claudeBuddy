@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "claude-buddy"
+version = "0.1.0"
+description = "把 Claude Code 的工作过程变成你的学习材料"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "openai>=1.0.0",
+    "click>=8.1.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+claude-buddy = "claude_buddy.main:cli"
+
+[tool.hatch.build.targets.wheel]
+packages = ["claude_buddy"]
